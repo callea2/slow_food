@@ -21,5 +21,4 @@ I would like a list of disches to be displayed on a page
   Scenario: Display 'No dishes message' if no dishes has been created
     Given there are no dishes in the system
     And I am on the home page
-    Then show me the page
     Then I should see "No dishes available"
