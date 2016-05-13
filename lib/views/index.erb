@@ -1,4 +1,4 @@
-<% if @dishes.empty? %>
+<% if @dishes.any? %>
   <% @dishes.each do |dish| %>
     <h3><%= dish[:name] %></h3>
   <% end %>
