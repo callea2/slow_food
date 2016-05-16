@@ -69,9 +69,6 @@ GEM
       json (~> 1.6)
       json_pure (~> 1.6)
       multi_json (~> 1.0)
-    dm-sqlite-adapter (1.2.0)
-      dm-do-adapter (~> 1.2.0)
-      do_sqlite3 (~> 0.10.6)
     dm-timestamps (1.2.0)
       dm-core (~> 1.2.0)
     dm-transactions (1.2.0)
@@ -87,8 +84,6 @@ GEM
     dm-validations (1.2.0)
       dm-core (~> 1.2.0)
     do_postgres (0.10.17)
-      data_objects (= 0.10.17)
-    do_sqlite3 (0.10.17)
       data_objects (= 0.10.17)
     docile (1.1.5)
     dotenv (2.1.1)
@@ -170,16 +165,8 @@ DEPENDENCIES
   cucumber
   data_mapper
   database_cleaner
-  dm-core (= 1.2.1)
-  dm-migrations (= 1.2.0)
   dm-postgres-adapter
   dm-rspec
-  dm-serializer (= 1.2.2)
-  dm-sqlite-adapter (= 1.2.0)
-  dm-timestamps (= 1.2.0)
-  dm-transactions (= 1.2.0)
-  dm-types (= 1.2.2)
-  dm-validations (= 1.2.0)
   do_postgres
   dotenv
   launchy
