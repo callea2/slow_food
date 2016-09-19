@@ -1,9 +1,9 @@
-### SlowFood (Sinatra)
-Test ffs
+## SlowFood (Sinatra)
 
+###Objective
 Our client is a Restaurant owner that needs an website where he can list his menu and allow visitors to place orders.
 
-#### Scope (v1)
+### Scope (v1)
 
 The first version of the application has limited functionality
 
@@ -13,9 +13,7 @@ The first version of the application has limited functionality
 * Visitors of the site can add Dishes to an Order
 * Order need to calculate a Total price and a Pick up time (30 minutes)
 
-Nothing else should be considered or implemented.
-
-#### Tools
+### Tools
 * Sinatra as web framework
 * Foundation6 as CSS framework
 * PostgreSQL for database
